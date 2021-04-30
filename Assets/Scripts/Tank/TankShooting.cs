@@ -6,7 +6,6 @@ public class TankShooting : MonoBehaviour
     public int m_PlayerNumber = 1;              // Used to identify the different players.
     public Rigidbody m_Shell;                   // Prefab of the shell.
     public Transform m_FireTransform;           // A child of the tank where the shells are spawned.
-    public Slider m_AimSlider;                  // A child of the tank that displays the current launch force.
     public AudioSource m_ShootingAudio;         // Reference to the audio source used to play the shooting audio. NB: different to the movement audio source.
     public AudioClip m_ChargingClip;            // Audio that plays when each shot is charging up.
     public AudioClip m_FireClip;                // Audio that plays when each shot is fired.
@@ -23,9 +22,8 @@ public class TankShooting : MonoBehaviour
 
     private void OnEnable()
     {
-        // When the tank is turned on, reset the launch force and the UI
+        // When the tank is turned on, reset the launch force
         m_CurrentLaunchForce = m_MinLaunchForce;
-        m_AimSlider.value = m_MinLaunchForce;
     }
 
 
@@ -42,7 +40,7 @@ public class TankShooting : MonoBehaviour
     private void Update ()
     {
         // The slider should have a default value of the minimum launch force.
-        m_AimSlider.value = m_MinLaunchForce;
+      
 
         // If the max force has been exceeded and the shell hasn't yet been launched...
         if (m_CurrentLaunchForce >= m_MaxLaunchForce && !m_Fired)
@@ -68,7 +66,6 @@ public class TankShooting : MonoBehaviour
             // Increment the launch force and update the slider.
             m_CurrentLaunchForce += m_ChargeSpeed * Time.deltaTime;
 
-            m_AimSlider.value = m_CurrentLaunchForce;
         }
         // Otherwise, if the fire button is released and the shell hasn't been launched yet...
         else if (Input.GetButtonUp (m_FireButton) && !m_Fired)
