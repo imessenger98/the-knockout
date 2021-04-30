@@ -1,15 +1,15 @@
 ﻿using System;
 using UnityEngine;
 
-[Serializable]
+[Serializable]//to show it in inpector
 public class TankManager
 {
     public Color m_PlayerColor;            
-    public Transform m_SpawnPoint;         
-    [HideInInspector] public int m_PlayerNumber;             
-    [HideInInspector] public string m_ColoredPlayerText;
+    public Transform m_SpawnPoint;  //spown point       
+    [HideInInspector] public int m_PlayerNumber;   //player 1 or 2          
+    [HideInInspector] public string m_ColoredPlayerText;//variable to store color
     [HideInInspector] public GameObject m_Instance;          
-    [HideInInspector] public int m_Wins;                     
+    [HideInInspector] public int m_Wins;   //number of player win                  
 
 
     private TankMovement m_Movement;       
@@ -25,7 +25,7 @@ public class TankManager
 
         m_Movement.m_PlayerNumber = m_PlayerNumber;
         m_Shooting.m_PlayerNumber = m_PlayerNumber;
-
+    //coloring the player as well as mesh renderer
         m_ColoredPlayerText = "<color=#" + ColorUtility.ToHtmlStringRGB(m_PlayerColor) + ">PLAYER " + m_PlayerNumber + "</color>";
 
         MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer>();
