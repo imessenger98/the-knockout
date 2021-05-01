@@ -15,11 +15,11 @@ D:/finalyear project/final-year-project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50237
+63505
 Successfully changed project path to: D:/finalyear project/final-year-project
 D:/finalyear project/final-year-project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 25.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,26 +35,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.003700 seconds.
+Registered in 0.003059 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 25.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
+- Completed reload, in  1.077 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000649 seconds.
+Registered in 0.000715 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -65,267 +65,32 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.718 seconds
+- Completed reload, in  0.701 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1426 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 74.4 MB.
 System memory in use after: 74.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 2.133900 ms (FindLiveObjects: 0.492300 ms CreateObjectMapping: 0.087300 ms MarkObjects: 1.457600 ms  DeleteObjects: 0.094200 ms)
+Total: 2.841800 ms (FindLiveObjects: 0.893600 ms CreateObjectMapping: 0.099100 ms MarkObjects: 1.758000 ms  DeleteObjects: 0.088900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/udioMixer
-  artifactKey: Guid(f1797fa98de77bf4cb87cef94ecf71d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/udioMixer using Guid(f1797fa98de77bf4cb87cef94ecf71d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb095c4422539d0f90ed770cedf685') in 0.004221 seconds
-  Import took 0.007943 seconds .
+  path: Assets/Scenes/main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3ed62438ac748b472882408a7a0d81') in 0.008967 seconds
+  Import took 0.011888 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.849564 seconds.
-  path: Assets/AudioMixer
-  artifactKey: Guid(f1797fa98de77bf4cb87cef94ecf71d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer using Guid(f1797fa98de77bf4cb87cef94ecf71d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa14c5e66d053fe327c5bb8cca397a2') in 0.001892 seconds
-  Import took 0.005067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.011282 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b99973f4238169b630410478838b94') in 0.026431 seconds
-  Import took 0.029655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001119 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b99973f4238169b630410478838b94') in 0.003045 seconds
-  Import took 0.005352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.438334 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cb0fa0fb1469f84fc2e6c17199b4d8') in 0.002176 seconds
-  Import took 0.006067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107260 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cb0fa0fb1469f84fc2e6c17199b4d8') in 0.002294 seconds
-  Import took 0.004988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.993342 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa40f477752f43abac17bcfe2faa656') in 0.002458 seconds
-  Import took 0.005347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.758266 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28364a58beec33ce9635763c7abcb285') in 0.002202 seconds
-  Import took 0.005457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012501 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28364a58beec33ce9635763c7abcb285') in 0.002089 seconds
-  Import took 0.004825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.663735 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8882e2decfb2dbaf9bbf2b5d1ec53674') in 0.002175 seconds
-  Import took 0.010079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.790943 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f97bf0b071e259a6c7bf60eb98a9e40') in 0.001993 seconds
-  Import took 0.005099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011195 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f97bf0b071e259a6c7bf60eb98a9e40') in 0.002603 seconds
-  Import took 0.005053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.911096 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c4e6a713e49ff40ff8dd27f0ed46ed') in 0.002359 seconds
-  Import took 0.005698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.811061 seconds.
-  path: Assets/Materials/YellowDark.mat
-  artifactKey: Guid(4b4b25f923792ce4ab819907a4629058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/YellowDark.mat using Guid(4b4b25f923792ce4ab819907a4629058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49474163fcd4a587d02b8be321ea925') in 0.086501 seconds
-  Import took 0.089261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.569669 seconds.
-  path: Assets/Prefabs/tanks 1.prefab
-  artifactKey: Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tanks 1.prefab using Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4091d533d921244cb6ce1a216858a5f8') in 0.180477 seconds
-  Import took 0.188991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.307351 seconds.
-  path: Assets/Prefabs/tanks 1.prefab
-  artifactKey: Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tanks 1.prefab using Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70b5b7a5f41922f986521e951ae5db3') in 0.132814 seconds
-  Import took 0.140340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.047920 seconds.
-  path: Assets/Prefabs/tanks 1.prefab
-  artifactKey: Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tanks 1.prefab using Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0196e1ce62c01757c2846b9439d3bcae') in 0.089978 seconds
-  Import took 0.098178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Prefabs/tanks 1.prefab
-  artifactKey: Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/tanks 1.prefab using Guid(ceee0fd02e1d8a54cbcdac5e500da817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0196e1ce62c01757c2846b9439d3bcae') in 0.101579 seconds
-  Import took 0.108803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.378011 seconds.
-  path: Assets/Prefabs/TankExplosion 1.prefab
-  artifactKey: Guid(15c6d128a99bd994bbe421c77fa3dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TankExplosion 1.prefab using Guid(15c6d128a99bd994bbe421c77fa3dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed775ef66a34a5b72b9712ba9423770') in 0.005974 seconds
-  Import took 0.008890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023071 seconds.
-  path: Assets/Prefabs/TankExplosion 1.prefab
-  artifactKey: Guid(15c6d128a99bd994bbe421c77fa3dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TankExplosion 1.prefab using Guid(15c6d128a99bd994bbe421c77fa3dc09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed775ef66a34a5b72b9712ba9423770') in 0.003771 seconds
-  Import took 0.006799 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000626 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.9 MB.
-System memory in use after: 78.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1918.
-Total: 2.185900 ms (FindLiveObjects: 0.224600 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.826700 ms  DeleteObjects: 0.091200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 346.856309 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b468fcd0c394ea0b822510e3fdc0c05a') in 0.014182 seconds
-  Import took 0.022094 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000749 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1921.
-Total: 1.995300 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.030900 ms MarkObjects: 1.705800 ms  DeleteObjects: 0.071700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000680 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.678 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1420 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1924.
-Total: 2.081800 ms (FindLiveObjects: 0.239900 ms CreateObjectMapping: 0.062500 ms MarkObjects: 1.712800 ms  DeleteObjects: 0.064000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.711094 seconds.
-  path: Assets/AudioMixer/NewAudioMixer.mixer
-  artifactKey: Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AudioMixer/NewAudioMixer.mixer using Guid(854071bb838eec148ac596c416d453b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77431d69432b596f59ec1978a4668447') in 0.010071 seconds
-  Import took 0.018325 seconds .
+  Time since last request: 24.836440 seconds.
+  path: Assets/Scenes/main 1.unity
+  artifactKey: Guid(8f46ef2c4473f1b41a6906e8ce495177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/main 1.unity using Guid(8f46ef2c4473f1b41a6906e8ce495177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87e8182e0a05a68808cb7364cb9c77c') in 0.002380 seconds
+  Import took 0.004540 seconds .
 
