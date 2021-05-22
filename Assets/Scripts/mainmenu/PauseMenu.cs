@@ -43,7 +43,7 @@ public class PauseMenu : MonoBehaviour
      public void gobacktomainmenu()
     {
         AudioListener.pause=false;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void QuitGame()
     {
