@@ -27,5 +27,10 @@ public class mainmenu : MonoBehaviour
     public void Openurl()
     {
         Application.OpenURL(url);
-    }  
+    } 
+    public void Instructions()
+    {
+        SceneManager.LoadScene(5);
+    } 
+    
     }
