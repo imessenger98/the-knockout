@@ -6,7 +6,7 @@ Our team created a 3D multiplayer game using the unity game engine .each player 
 
 ## PLAY GAME ONLINE
 <a href="https://messenger-1012.github.io/theknockout/" target="_blank"  >  <img src="https://img.shields.io/badge/-PLAY%20GAME-green"  alt="play game" /> </a>
-##### (minimal version of the game)
+##### (lite version of the game)
 
 ## DOWNLOAD
 <a href="https://drive.google.com/drive/folders/1w_jq8nnCzEF0KMNDNSDrCMT3gTm6tIXm?usp=sharing" target="_blank"  >  <img src="https://img.shields.io/badge/-DOWNLOAD%20GAME-red"  alt="DOWNLOAD" /> </a>
